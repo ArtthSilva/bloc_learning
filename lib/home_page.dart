@@ -14,6 +14,9 @@ class HomePage extends StatelessWidget {
             ElevatedButton(onPressed: (){
               Navigator.of(context).pushNamed('/bloc');
             }, child: const Text('Bloc',),),
+             ElevatedButton(onPressed: (){
+              Navigator.of(context).pushNamed('/cubit');
+            }, child: const Text('cubit',),),
           ],
         ),
         ),
